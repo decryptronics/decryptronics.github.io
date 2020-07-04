@@ -12,15 +12,8 @@ permalink: /about/
 	</ul>
 </div>
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi! My name is `Soumil Krishnanand Heble` and I'm hooked on to electronics since 2010. This blog is about my personal experiences and adventures in Electronics and Silicon Design.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+A Computer Engineer by profession, working at <a href="https://www.amd.com/en" target="_blank">AMD Inc.</a> since 2020 as a Silicon Design Engineer. I work on supporting emulation efforts and verification of AMD's flagship x86 Cores.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I got a **Masters Degree** in **Computer Engineering** from the <a href="https://www.ncsu.edu/" target="_blank">North Carolina State University</a>, NC, USA and a **Bachelors Degree** in **Electronics and Instrumentation Engineering** from <a href="https://vit.ac.in/" target="_blank">VIT University</a>, TN, India.
