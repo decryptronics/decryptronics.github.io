@@ -28,6 +28,8 @@ twitter_username: soumilheble
 github_username:  decryptronics
 logo: "/media/img/logo/dclogo.png"
 google_analytics: UA-171523280-1
+disqus:
+  shortname: decryptronics
 
 # Build settings
 plugins:
