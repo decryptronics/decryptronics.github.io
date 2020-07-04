@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to deCryptronics!"
 date:   2020-07-01 00:00:01 -0400
 author: Soumil Heble
+comments: false
 categories: personal
 ---
 <div class="three-img-bar">
