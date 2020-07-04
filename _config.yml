@@ -27,6 +27,7 @@ url: "https://decryptronics.github.io" # the base hostname & protocol for your s
 twitter_username: soumilheble
 github_username:  decryptronics
 logo: "/media/img/logo/dclogo.png"
+google_analytics: UA-171523280-1
 
 # Build settings
 plugins:
