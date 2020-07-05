@@ -252,12 +252,24 @@
 
 	line-height: 1.85rem;
 
+	h1 {
+    @include relative-font-size(2.33);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.82);
+    }
+
+		font-weight: bold;
+  }
+
   h2 {
     @include relative-font-size(2);
 
     @include media-query($on-laptop) {
       @include relative-font-size(1.75);
     }
+
+		font-weight: bold;
   }
 
   h3 {
@@ -266,6 +278,8 @@
     @include media-query($on-laptop) {
       @include relative-font-size(1.375);
     }
+
+		font-weight: bold;
   }
 
   h4 {
@@ -274,6 +288,8 @@
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
     }
+
+		font-weight: bold;
   }
 }
 
@@ -316,12 +332,30 @@
 }
 
 /**
- * Centered Image for 404
+ * Custom Image Alignments
  */
-.image-centered {
-	width: 100%;
-	max-width: 500px; 
+.img-center {
 	height: auto;
 	margin-left: auto;
-	margin-right: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.img-left-float {
+  float: left;
+	height: auto;
+	margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 2rem;
+}
+
+.img-right-float {
+  float: right;
+	height: auto;
+	margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 0;
 }

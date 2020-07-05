@@ -27,6 +27,9 @@ url: "https://decryptronics.github.io" # the base hostname & protocol for your s
 twitter_username: soumilheble
 github_username:  decryptronics
 logo: "/media/img/logo/dclogo.png"
+img404:
+  path: "/media/img/error404/error404_1.jpg"
+  alt: "Baby Yoda Surprised"
 google_analytics: UA-171523280-1
 disqus:
   shortname: decryptronics
