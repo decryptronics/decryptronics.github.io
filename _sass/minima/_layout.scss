@@ -259,7 +259,8 @@
       @include relative-font-size(1.82);
     }
 
-		font-weight: bold;
+    font-weight: bold;
+    margin-top: 1rem;
   }
 
   h2 {
@@ -269,7 +270,8 @@
       @include relative-font-size(1.75);
     }
 
-		font-weight: bold;
+    font-weight: bold;
+    margin-top: 1rem;
   }
 
   h3 {
@@ -279,7 +281,8 @@
       @include relative-font-size(1.375);
     }
 
-		font-weight: bold;
+    font-weight: bold;
+    margin-top: 1rem;
   }
 
   h4 {
@@ -289,7 +292,8 @@
       @include relative-font-size(1.125);
     }
 
-		font-weight: bold;
+    font-weight: bold;
+    margin-top: 1rem;
   }
 }
 
@@ -332,30 +336,46 @@
 }
 
 /**
- * Custom Image Alignments
+ * Custom Figure/Image/Caption Alignments
  */
-.img-center {
-	height: auto;
-	margin-left: auto;
-  margin-right: auto;
-  padding-left: 0;
-  padding-right: 0;
+
+.fig-center {
+  margin: 1.8rem 0 1.8rem 0;
+  padding: 0;
 }
 
-.img-left-float {
+.fig-left-float {
+  display: inline-block;
   float: left;
-	height: auto;
-	margin-left: auto;
-  margin-right: auto;
-  padding-left: 0;
-  padding-right: 2rem;
+  margin: 0;
+  padding: 0;
+  margin: 1.5rem 2rem 0 0;
 }
 
-.img-right-float {
+.fig-right-float {
+  display: inline-block;
   float: right;
+  margin: 0;
+  padding: 0;
+  margin: 1.5rem 0 0 2rem;
+}
+
+.img-center, .img-left-float, .img-right-float {
 	height: auto;
-	margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 0;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  vertical-align: top;
+}
+
+.capt-center, .capt-left-float, .capt-right-float {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+
+@include media-query($on-palm) {
+  .fig-center, .fig-left-float, .fig-right-float {
+    margin: 1.8rem 0 1.8rem 0;
+    padding: 0;
+  }
 }
