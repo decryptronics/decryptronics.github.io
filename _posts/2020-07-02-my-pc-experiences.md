@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "My PC Experiences!"
-date:   2020-07-04 20:00:00 -0400
+title:  "My Experiences with PC"
+date:   2020-07-02 20:00:00 -0400
 author: Soumil Heble
 comments: true
 categories: personal computers
