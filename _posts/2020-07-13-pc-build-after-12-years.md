@@ -43,7 +43,7 @@ With a budget of $2000 I set-off looking for parts in January 2020, just before 
 
 I decided to go for `AMD "Matisse" Ryzen 5 3600` for the CPU. During that time it was being touted as the best and most economical CPU for ultra-setting 1080p gaming and general applications. It fit my requirements of medium-setting 2K gaming and multi-threading of at least 4 cores (Ryzen 3600 has 6 cores).
 
-My previous experience with an AMD system was not great. I owned an `HP Pavilion g6-1b60us` before an HP Pavilion 15 e038tx and the current Lenovo ThinkPad Carbon X1 6th Generation. It had an `AMD "Llano" Dual-Core A4-3300M APU` which ran hot and had poor battery life. 
+My previous experience with an AMD system was not great. I owned an `HP Pavilion g6-1b60us` before an HP Pavilion 15 e038tx and the current Lenovo ThinkPad Carbon X1 6th Generation. The g6-1b60us had an `AMD "Llano" Dual-Core A4-3300M APU` which ran hot and had poor battery life. 
 
 Six years later AMD launched processors based on the Zen architecture which had a massive improvement in performance and power efficiency while being economical. When I was an intern at AMD in the summer of 2019, the Ryzen 3000 series of processors were launched. The launch was very successful because of TSMC's 7nm process node, Zen 2 Microarchitecture, and the huge IPC gains and performance efficiency that came with it. Apart from being a great product, as an employee, I get a discount on AMD's products. AMD's commitment to support the AM4 platform for another year was also a huge factor in my decision. Even if I don't plan to upgrade my CPU for at least 4 years having a motherboard with support for the next generation CPUs is a bonus.
 
