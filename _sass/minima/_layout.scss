@@ -392,16 +392,10 @@
  * Custom Figure/Image/Caption Alignments for Home Page Banner
  */
 
-.fig-center-home {
-  margin: 0;
-  padding: 0;
-  padding-bottom: 1.5rem;
-}
-
 .img-center-home {
 	height: 200px;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
   object-fit: cover;
   vertical-align: top;
 }
