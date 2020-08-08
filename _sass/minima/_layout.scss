@@ -207,6 +207,7 @@
 
 .post-list-heading {
   @include relative-font-size(1.75);
+  font-weight: 900;
 }
 
 .post-list {
@@ -240,7 +241,8 @@
 .post-title {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
-  line-height: 1;
+  line-height: 1.15;
+  font-weight: 900;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -250,7 +252,7 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
-	line-height: 1.85rem;
+  line-height: 1.85rem;
 
 	h1 {
     @include relative-font-size(2.33);
@@ -260,7 +262,8 @@
     }
 
     font-weight: bold;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    line-height: 1.35;
   }
 
   h2 {
@@ -271,7 +274,8 @@
     }
 
     font-weight: bold;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    line-height: 1.25;
   }
 
   h3 {
@@ -282,7 +286,8 @@
     }
 
     font-weight: bold;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    line-height: 1.25;
   }
 
   h4 {
@@ -293,7 +298,8 @@
     }
 
     font-weight: bold;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    line-height: 1.25;
   }
 }
 
@@ -378,4 +384,59 @@
     margin: 1.8rem 0 1.8rem 0;
     padding: 0;
   }
+}
+
+
+
+/**
+ * Custom Figure/Image/Caption Alignments for Home Page Banner
+ */
+
+.fig-center-home {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1.5rem;
+}
+
+.img-center-home {
+	height: 200px;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.capt-center-home {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+}
+
+
+
+/**
+ * Post ToC Formatting
+ */
+
+// Adding 'Contents' headline to the TOC
+#markdown-toc::before {
+  font-weight: bold;
+}
+
+
+// Using numbers instead of bullets for listing
+#markdown-toc ul {
+  list-style-type: disc;
+}
+
+#markdown-toc {
+  border: 1px solid #aaa;
+  width: calc(100% - 1.5em);
+  padding: 1em;
+  padding-right: 0;
+  padding-left: 2.25em;
+  margin-left: 0;
+  list-style: decimal;
+  display: block;
 }

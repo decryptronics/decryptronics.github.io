@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <figure class="fig-center-home">
+        <img class="img-center-home" src="/media/img/contact_banner/contact_banner_modified.jpg" alt="Silicon Wafer Macro Image" width="100%"/>
+        <figcaption class="capt-center-home"> <a href="https://www.flickr.com/photos/jackofspades/9540184355/" target="_blank">Silicon Village</a> by <a href="https://www.flickr.com/photos/jackofspades/" target="_blank">Jack Spades</a> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC BY 2.0</a>; Cropped</figcaption>
+      </figure>
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

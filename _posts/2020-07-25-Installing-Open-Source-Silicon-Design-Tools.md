@@ -209,8 +209,8 @@ sudo make install{% endhighlight %}
 
 * Check the installation by running `nextpnr-ice40 -V` and it should print out the version information.
 
-### <a href="https://symbiyosys.readthedocs.io" target="_blank">SymbiYosys</a> - Formal Verification Tool
-> SymbiYosys (sby) is a front-end driver program for Yosys-based formal hardware verification flows. - <a href="https://github.com/YosysHQ/SymbiYosys" target="_blank">SymbiYosys GitHub</a>
+### SymbiYosys - Formal Verification Tool
+> <a href="https://symbiyosys.readthedocs.io" target="_blank">SymbiYosys</a> (sby) is a front-end driver program for Yosys-based formal hardware verification flows. - <a href="https://github.com/YosysHQ/SymbiYosys" target="_blank">SymbiYosys GitHub</a>
 
 **My Use Case:** Formal verification of my Verilog RTL designs.
 
@@ -219,9 +219,9 @@ sudo make install{% endhighlight %}
 cd SymbiYosys
 sudo make install{% endhighlight %}
 
-### Yices 2, Z3 & Bootlector - <a href="https://en.wikipedia.org/wiki/Satisfiability_modulo_theories" target="_blank">SMT</a> Solvers 
+### Yices 2, Z3 & Bootlector - SMT Solvers 
 
-**My Use Case:** SMT solvers for SmbiYosys formal verification flow
+**My Use Case:** <a href="https://en.wikipedia.org/wiki/Satisfiability_modulo_theories" target="_blank">SMT</a> solvers for SmbiYosys formal verification flow
 
 #### Yices2
 * Run the following commands:
@@ -255,7 +255,5 @@ sudo cp build/bin/{boolector,btor*} /usr/local/bin/
 sudo cp deps/btor2tools/bin/btorsim /usr/local/bin/{% endhighlight %}
 
 * Check the installation by running `boolector -V` and it should print out the version information.
-
-
 
 {% include image.html name="fin.jpg" alt="PC from the 2000's" width="740px" class="center" caption="<a href=\"https://www.flickr.com/photos/christophebecker/39643834842\" target=\"_blank\">That's all Folks!</a> by <a href=\"https://www.flickr.com/photos/christophebecker/\" target=\"_blank\">Christophe Becker</a> is licensed under <a href=\"https://creativecommons.org/licenses/by-nd/2.0/\" target=\"_blank\">CC BY-ND 2.0</a>" %}

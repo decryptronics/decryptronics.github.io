@@ -5,8 +5,7 @@ permalink: /contact/
 ---
 
 <figure class="fig-center">
-<img class="img-center" src="/media/img/contact_banner/contact_banner_modified.jpg" alt="Silicon Wafer Macro Image" width="100%"/>
-<figcaption class="capt-center"> <a href="https://www.flickr.com/photos/jackofspades/9540184355/" target="_blank">Silicon Village</a> by <a href="https://www.flickr.com/photos/jackofspades/" target="_blank">Jack Spades</a> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC BY 2.0</a>; Cropped</figcaption>
+    <img class="img-center" src="/media/img/contact_banner/contact_banner_1.jpg" alt="AMD Radeon HD 8670M inside my HP Pavilion 15-e038tx" width="100%"/>
 </figure>
 
 #### Contact for sharing ideas, suggestions for projects, collaborations, or any general inquiry
