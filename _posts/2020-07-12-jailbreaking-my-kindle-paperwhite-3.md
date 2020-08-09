@@ -4,7 +4,7 @@ title:  "Jailbreaking My Kindle Paperwhite 3"
 date:   2020-07-12 12:00:00
 author: Soumil Heble
 comments: true
-categories: kindle hacking
+categories: electronics
 ---
 
 {% include image.html name="kindle_post_banner.jpg" alt="PC from the 2000's" width="700px" class="center" caption="<a href=\"https://www.flickr.com/photos/matt_gibson/21693789403\" target=\"_blank\">Amazon Kindle Paperwhite</a> by <a href=\"https://www.flickr.com/photos/matt_gibson/\" target=\"_blank\">Matt Gibson</a> is licensed under <a href=\"https://creativecommons.org/licenses/by-nc/2.0/\" target=\"_blank\">CC BY-NC 2.0</a>" %}

@@ -4,7 +4,7 @@ title:  "My Experiences with PC"
 date:   2020-07-02 12:00:00
 author: Soumil Heble
 comments: true
-categories: personal computers
+categories: personal
 ---
 ## The Good Ol' Days
 

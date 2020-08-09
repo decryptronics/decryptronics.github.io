@@ -4,7 +4,7 @@ title:  "Installing Open Source Silicon Design Tools"
 date:   2020-07-25 12:00:00
 author: Soumil Heble
 comments: true
-categories: silicon tools
+categories: silicon_frontend
 ---
 
 <div class="three-img-bar">

@@ -4,7 +4,7 @@ title:  "PC Build After 12 Years"
 date:   2020-07-13 15:00:00
 author: Soumil Heble
 comments: true
-categories: personal computers
+categories: personal
 ---
 
 {% include image.html name="final_build.jpg" alt="My Workstation" width="740px" class="center" caption="My Workstation" %}
